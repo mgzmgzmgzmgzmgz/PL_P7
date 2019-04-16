@@ -1,0 +1,1 @@
+("7.2" racket ("bd0244c67158f86b825a0b2112432a26e5111da8" . "ee20b030bc567e51a3a235c7f58ce55b6f0797fb") (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"racket" #"trace.rkt") (ext . #"/Users/micahgiles/Desktop/Inner_Desktop/UAB_Spring_19/Programming_Langauges/cs401workspace/p7/mk.scm"))

@@ -20,7 +20,7 @@
 ;	  
 ; Honor pledge (please write your name.)    
 ;
-; I **firstname lastname** have completed this code myself, without    
+; I Micah Giles have completed this code myself, without    
 ; unauthorized assistance, and have followed the academic honor code.	  
 ; 
 ; Edit the code below to complete your solution.	
@@ -56,8 +56,15 @@
 ; Your job is to write a similar (relational) reverseo function	  
 (define (reverseo lst0 lst1)	  
   (conde	  
-   ; TODO: what cases are involved? What must be true in each case?	
-   ))    
+   ; TODO: what cases are involved? What must be true in each case?
+      ;Base case
+      [(== lst0 '())
+       (== lst1 '())]
+      ;Recursive case
+      [(fresh (first rest tail)
+              (== lst0 (cons first rest))
+              (appendo tail (list first) lst1)
+              (reverseo rest tail))] ))    
 	  
 
 
